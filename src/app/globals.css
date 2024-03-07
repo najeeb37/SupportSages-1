@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+  html {
+    background-color: #f1f8ff;
+  }
+}
+
+@font-face {
+  font-family: 'Secular One';
+  src: url('/fonts/SecularOne-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
